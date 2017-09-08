@@ -1,0 +1,3 @@
+D:/ITMO/c++/2/Printer/cmake-build-debug/CMakeFiles/Printer.dir
+D:/ITMO/c++/2/Printer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ITMO/c++/2/Printer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
