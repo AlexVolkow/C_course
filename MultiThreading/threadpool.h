@@ -6,20 +6,33 @@
 #define MULTITHREADING_THREADPOOL_H
 
 #include <stdexcept>
-#include "worker.h"
+#include <functional>
+#include <thread>
+#include <queue>
+#include <mutex>
+#include <memory>
+#include <condition_variable>
+
+typedef std::function<void()> task_type;
 
 class ThreadPool {
 private:
-    Worker* free_worker();
+    bool enabled;
+    std::mutex	mutex;
+    std::condition_variable	worker_check;
+    std::queue<task_type> tasks;
+    std::vector<std::thread*> workers;
 
-    std::vector<Worker*> workers;
+    void work();
+
+    bool is_correct_awakening();
 
 public:
     ThreadPool(size_t threads);
 
     ~ThreadPool();
 
-    void execute(fn_type task);
+    void execute(task_type task);
 };
 
 #endif //MULTITHREADING_THREADPOOL_H

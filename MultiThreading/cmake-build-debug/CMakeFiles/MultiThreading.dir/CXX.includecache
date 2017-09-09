@@ -11,8 +11,6 @@ iostream
 -
 threadpool.h
 D:/ITMO/C++/MultiThreading/threadpool.h
-thread
--
 zconf.h
 -
 
@@ -23,18 +21,6 @@ D:/ITMO/C++/MultiThreading/threadpool.h
 D:/ITMO/C++/MultiThreading/threadpool.h
 stdexcept
 -
-worker.h
-D:/ITMO/C++/MultiThreading/worker.h
-
-D:/ITMO/C++/MultiThreading/worker.cpp
-iostream
--
-thread
--
-worker.h
-D:/ITMO/C++/MultiThreading/worker.h
-
-D:/ITMO/C++/MultiThreading/worker.h
 functional
 -
 thread

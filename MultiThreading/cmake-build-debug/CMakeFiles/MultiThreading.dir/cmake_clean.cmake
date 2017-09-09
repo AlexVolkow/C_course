@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MultiThreading.dir/test.cpp.obj"
-  "CMakeFiles/MultiThreading.dir/worker.cpp.obj"
   "CMakeFiles/MultiThreading.dir/threadpool.cpp.obj"
   "MultiThreading.pdb"
   "MultiThreading.exe"

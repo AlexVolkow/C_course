@@ -3,5 +3,5 @@ project(MultiThreading)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test.cpp worker.cpp worker.h threadpool.h threadpool.cpp)
+set(SOURCE_FILES test.cpp threadpool.h threadpool.cpp)
 add_executable(MultiThreading ${SOURCE_FILES})

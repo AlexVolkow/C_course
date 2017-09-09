@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/ITMO/C++/MultiThreading/test.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/test.cpp.obj"
   "D:/ITMO/C++/MultiThreading/threadpool.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/threadpool.cpp.obj"
-  "D:/ITMO/C++/MultiThreading/worker.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/worker.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

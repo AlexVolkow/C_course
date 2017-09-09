@@ -3,12 +3,7 @@
 
 CMakeFiles/MultiThreading.dir/test.cpp.obj: ../test.cpp
 CMakeFiles/MultiThreading.dir/test.cpp.obj: ../threadpool.h
-CMakeFiles/MultiThreading.dir/test.cpp.obj: ../worker.h
 
 CMakeFiles/MultiThreading.dir/threadpool.cpp.obj: ../threadpool.cpp
 CMakeFiles/MultiThreading.dir/threadpool.cpp.obj: ../threadpool.h
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj: ../worker.h
-
-CMakeFiles/MultiThreading.dir/worker.cpp.obj: ../worker.cpp
-CMakeFiles/MultiThreading.dir/worker.cpp.obj: ../worker.h
 

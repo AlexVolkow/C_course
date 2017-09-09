@@ -89,12 +89,6 @@
 		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool.h">
 			<Option target="MultiThreading"/>
 		</Unit>
-		<Unit filename="D:/ITMO/C++/MultiThreading/worker.cpp">
-			<Option target="MultiThreading"/>
-		</Unit>
-		<Unit filename="D:/ITMO/C++/MultiThreading/worker.h">
-			<Option target="MultiThreading"/>
-		</Unit>
 		<Unit filename="D:/ITMO/C++/MultiThreading/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

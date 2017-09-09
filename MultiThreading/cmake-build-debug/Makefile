@@ -176,33 +176,6 @@ threadpool.cpp.s:
 	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool.cpp.s
 .PHONY : threadpool.cpp.s
 
-worker.obj: worker.cpp.obj
-
-.PHONY : worker.obj
-
-# target to build an object file
-worker.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/worker.cpp.obj
-.PHONY : worker.cpp.obj
-
-worker.i: worker.cpp.i
-
-.PHONY : worker.i
-
-# target to preprocess a source file
-worker.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/worker.cpp.i
-.PHONY : worker.cpp.i
-
-worker.s: worker.cpp.s
-
-.PHONY : worker.s
-
-# target to generate assembly for a file
-worker.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/worker.cpp.s
-.PHONY : worker.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,9 +191,6 @@ help:
 	@echo ... threadpool.obj
 	@echo ... threadpool.i
 	@echo ... threadpool.s
-	@echo ... worker.obj
-	@echo ... worker.i
-	@echo ... worker.s
 .PHONY : help
 
 
