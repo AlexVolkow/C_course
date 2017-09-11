@@ -21,7 +21,7 @@ private:
     std::mutex	mutex;
     std::condition_variable	worker_check;
     std::queue<task_type> tasks;
-    std::vector<std::thread*> workers;
+    std::vector<std::thread> workers;
 
     void work();
 

@@ -11,11 +11,10 @@ ThreadPool::ThreadPool(size_t threads) {
     if (threads <= 0) {
         throw std::logic_error("Positive value required");
     }
-    for (size_t i = 0; i < threads; i++) {
-        thread* worker = new thread(work, this);
-        workers.emplace_back(worker);
-    }
     enabled = true;
+    for (size_t i = 0; i < threads; i++) {
+        workers.push_back(thread(work, this));
+    }
 }
 
 void ThreadPool::work() {
@@ -38,13 +37,10 @@ void ThreadPool::work() {
 ThreadPool::~ThreadPool() {
     enabled = false;
     worker_check.notify_all();
-    for (auto work: workers) {
-        if (work->joinable()) {
-            work->join();
+    for (auto &work: workers) {
+        if (work.joinable()) {
+            work.join();
         }
-    }
-    for (auto work: workers) {
-        delete work;
     }
 }
 

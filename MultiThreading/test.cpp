@@ -28,6 +28,7 @@ int main() {
     pool.execute(&foo);
     pool.execute(&bar);
     pool.execute(&baz);
+
     sleep(1);
     return 0;
 
