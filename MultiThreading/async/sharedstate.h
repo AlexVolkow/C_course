@@ -54,11 +54,11 @@ void SharedState<T>::wait() {
     if (used) {
         throw std::logic_error("invalid state");
     }
-    if (ready.load()) {
+    if (is_ready()) {
         return;
     }
     std::unique_lock<std::mutex> lock(mutex);
-    state_notification.wait(lock, [&]() { return ready.load(); });
+    state_notification.wait(lock, [&]() { return is_ready(); });
 }
 
 template<typename T>
