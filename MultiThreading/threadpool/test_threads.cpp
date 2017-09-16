@@ -22,14 +22,31 @@ void baz() {
     }
 }
 
+std::mutex mutx;
+void test() {
+    std::unique_lock<std::mutex> lock(mutx);
+    printf("id = %d\n", this_thread::get_id());
+    lock.unlock();
+    sleep(1);
+    lock.lock();
+    printf("id = %d\n", this_thread::get_id());
+}
+
+/*
 int main() {
     ThreadPool pool(2);
 
-    pool.execute(&foo);
+    */
+/*pool.execute(&foo);
     pool.execute(&bar);
-    pool.execute(&baz);
+    pool.execute(&baz);*//*
 
-    sleep(1);
+
+    for (int i = 0; i < 10; i++) {
+        pool.execute(&test);
+    }
+
+    sleep(3);
     return 0;
 
-}
+}*/

@@ -122,59 +122,86 @@ MultiThreading/fast:
 	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/build
 .PHONY : MultiThreading/fast
 
-test.obj: test.cpp.obj
+async/test_async.obj: async/test_async.cpp.obj
 
-.PHONY : test.obj
-
-# target to build an object file
-test.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/test.cpp.obj
-.PHONY : test.cpp.obj
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/test.cpp.s
-.PHONY : test.cpp.s
-
-threadpool.obj: threadpool.cpp.obj
-
-.PHONY : threadpool.obj
+.PHONY : async/test_async.obj
 
 # target to build an object file
-threadpool.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool.cpp.obj
-.PHONY : threadpool.cpp.obj
+async/test_async.cpp.obj:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj
+.PHONY : async/test_async.cpp.obj
 
-threadpool.i: threadpool.cpp.i
+async/test_async.i: async/test_async.cpp.i
 
-.PHONY : threadpool.i
+.PHONY : async/test_async.i
 
 # target to preprocess a source file
-threadpool.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool.cpp.i
-.PHONY : threadpool.cpp.i
+async/test_async.cpp.i:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.i
+.PHONY : async/test_async.cpp.i
 
-threadpool.s: threadpool.cpp.s
+async/test_async.s: async/test_async.cpp.s
 
-.PHONY : threadpool.s
+.PHONY : async/test_async.s
 
 # target to generate assembly for a file
-threadpool.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool.cpp.s
-.PHONY : threadpool.cpp.s
+async/test_async.cpp.s:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.s
+.PHONY : async/test_async.cpp.s
+
+threadpool/test_threads.obj: threadpool/test_threads.cpp.obj
+
+.PHONY : threadpool/test_threads.obj
+
+# target to build an object file
+threadpool/test_threads.cpp.obj:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj
+.PHONY : threadpool/test_threads.cpp.obj
+
+threadpool/test_threads.i: threadpool/test_threads.cpp.i
+
+.PHONY : threadpool/test_threads.i
+
+# target to preprocess a source file
+threadpool/test_threads.cpp.i:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.i
+.PHONY : threadpool/test_threads.cpp.i
+
+threadpool/test_threads.s: threadpool/test_threads.cpp.s
+
+.PHONY : threadpool/test_threads.s
+
+# target to generate assembly for a file
+threadpool/test_threads.cpp.s:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.s
+.PHONY : threadpool/test_threads.cpp.s
+
+threadpool/threadpool.obj: threadpool/threadpool.cpp.obj
+
+.PHONY : threadpool/threadpool.obj
+
+# target to build an object file
+threadpool/threadpool.cpp.obj:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj
+.PHONY : threadpool/threadpool.cpp.obj
+
+threadpool/threadpool.i: threadpool/threadpool.cpp.i
+
+.PHONY : threadpool/threadpool.i
+
+# target to preprocess a source file
+threadpool/threadpool.cpp.i:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.i
+.PHONY : threadpool/threadpool.cpp.i
+
+threadpool/threadpool.s: threadpool/threadpool.cpp.s
+
+.PHONY : threadpool/threadpool.s
+
+# target to generate assembly for a file
+threadpool/threadpool.cpp.s:
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.s
+.PHONY : threadpool/threadpool.cpp.s
 
 # Help Target
 help:
@@ -185,12 +212,15 @@ help:
 	@echo ... MultiThreading
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
-	@echo ... threadpool.obj
-	@echo ... threadpool.i
-	@echo ... threadpool.s
+	@echo ... async/test_async.obj
+	@echo ... async/test_async.i
+	@echo ... async/test_async.s
+	@echo ... threadpool/test_threads.obj
+	@echo ... threadpool/test_threads.i
+	@echo ... threadpool/test_threads.s
+	@echo ... threadpool/threadpool.obj
+	@echo ... threadpool/threadpool.i
+	@echo ... threadpool/threadpool.s
 .PHONY : help
 
 

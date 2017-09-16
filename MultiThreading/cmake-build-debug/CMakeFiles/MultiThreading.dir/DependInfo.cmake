@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ITMO/C++/MultiThreading/test.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/test.cpp.obj"
-  "D:/ITMO/C++/MultiThreading/threadpool.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/threadpool.cpp.obj"
+  "D:/ITMO/C++/MultiThreading/async/test_async.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj"
+  "D:/ITMO/C++/MultiThreading/threadpool/test_threads.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj"
+  "D:/ITMO/C++/MultiThreading/threadpool/threadpool.cpp" "D:/ITMO/C++/MultiThreading/cmake-build-debug/CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

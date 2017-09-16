@@ -18,7 +18,7 @@ typedef std::function<void()> task_type;
 class ThreadPool {
 private:
     bool enabled;
-    std::mutex	mutex;
+    std::mutex mutex;
     std::condition_variable	worker_check;
     std::queue<task_type> tasks;
     std::vector<std::thread> workers;

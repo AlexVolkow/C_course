@@ -80,13 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ITMO/C++/MultiThreading/test.cpp">
+		<Unit filename="D:/ITMO/C++/MultiThreading/async/future.h">
 			<Option target="MultiThreading"/>
 		</Unit>
-		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool.cpp">
+		<Unit filename="D:/ITMO/C++/MultiThreading/async/promise.h">
 			<Option target="MultiThreading"/>
 		</Unit>
-		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool.h">
+		<Unit filename="D:/ITMO/C++/MultiThreading/async/sharedstate.h">
+			<Option target="MultiThreading"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/async/test_async.cpp">
+			<Option target="MultiThreading"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/async/utils.h">
+			<Option target="MultiThreading"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool/test_threads.cpp">
+			<Option target="MultiThreading"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool/threadpool.cpp">
+			<Option target="MultiThreading"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/threadpool/threadpool.h">
 			<Option target="MultiThreading"/>
 		</Unit>
 		<Unit filename="D:/ITMO/C++/MultiThreading/CMakeLists.txt">

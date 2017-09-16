@@ -56,69 +56,95 @@ include CMakeFiles/MultiThreading.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MultiThreading.dir/flags.make
 
-CMakeFiles/MultiThreading.dir/test.cpp.obj: CMakeFiles/MultiThreading.dir/flags.make
-CMakeFiles/MultiThreading.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MultiThreading.dir/test.cpp.obj"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MultiThreading.dir\test.cpp.obj -c D:\ITMO\C++\MultiThreading\test.cpp
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj: CMakeFiles/MultiThreading.dir/flags.make
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj: ../threadpool/test_threads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MultiThreading.dir\threadpool\test_threads.cpp.obj -c D:\ITMO\C++\MultiThreading\threadpool\test_threads.cpp
 
-CMakeFiles/MultiThreading.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiThreading.dir/test.cpp.i"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ITMO\C++\MultiThreading\test.cpp > CMakeFiles\MultiThreading.dir\test.cpp.i
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.i"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ITMO\C++\MultiThreading\threadpool\test_threads.cpp > CMakeFiles\MultiThreading.dir\threadpool\test_threads.cpp.i
 
-CMakeFiles/MultiThreading.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiThreading.dir/test.cpp.s"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ITMO\C++\MultiThreading\test.cpp -o CMakeFiles\MultiThreading.dir\test.cpp.s
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.s"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ITMO\C++\MultiThreading\threadpool\test_threads.cpp -o CMakeFiles\MultiThreading.dir\threadpool\test_threads.cpp.s
 
-CMakeFiles/MultiThreading.dir/test.cpp.obj.requires:
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.requires:
 
-.PHONY : CMakeFiles/MultiThreading.dir/test.cpp.obj.requires
+.PHONY : CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.requires
 
-CMakeFiles/MultiThreading.dir/test.cpp.obj.provides: CMakeFiles/MultiThreading.dir/test.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/test.cpp.obj.provides.build
-.PHONY : CMakeFiles/MultiThreading.dir/test.cpp.obj.provides
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.provides: CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.provides.build
+.PHONY : CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.provides
 
-CMakeFiles/MultiThreading.dir/test.cpp.obj.provides.build: CMakeFiles/MultiThreading.dir/test.cpp.obj
+CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.provides.build: CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj
 
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj: CMakeFiles/MultiThreading.dir/flags.make
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj: ../threadpool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MultiThreading.dir/threadpool.cpp.obj"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MultiThreading.dir\threadpool.cpp.obj -c D:\ITMO\C++\MultiThreading\threadpool.cpp
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj: CMakeFiles/MultiThreading.dir/flags.make
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj: ../threadpool/threadpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MultiThreading.dir\threadpool\threadpool.cpp.obj -c D:\ITMO\C++\MultiThreading\threadpool\threadpool.cpp
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiThreading.dir/threadpool.cpp.i"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ITMO\C++\MultiThreading\threadpool.cpp > CMakeFiles\MultiThreading.dir\threadpool.cpp.i
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.i"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ITMO\C++\MultiThreading\threadpool\threadpool.cpp > CMakeFiles\MultiThreading.dir\threadpool\threadpool.cpp.i
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiThreading.dir/threadpool.cpp.s"
-	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ITMO\C++\MultiThreading\threadpool.cpp -o CMakeFiles\MultiThreading.dir\threadpool.cpp.s
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.s"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ITMO\C++\MultiThreading\threadpool\threadpool.cpp -o CMakeFiles\MultiThreading.dir\threadpool\threadpool.cpp.s
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.requires:
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.requires:
 
-.PHONY : CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.requires
+.PHONY : CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.requires
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.provides: CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.provides.build
-.PHONY : CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.provides
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.provides: CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.provides.build
+.PHONY : CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.provides
 
-CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.provides.build: CMakeFiles/MultiThreading.dir/threadpool.cpp.obj
+CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.provides.build: CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj
+
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj: CMakeFiles/MultiThreading.dir/flags.make
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj: ../async/test_async.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MultiThreading.dir\async\test_async.cpp.obj -c D:\ITMO\C++\MultiThreading\async\test_async.cpp
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiThreading.dir/async/test_async.cpp.i"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ITMO\C++\MultiThreading\async\test_async.cpp > CMakeFiles\MultiThreading.dir\async\test_async.cpp.i
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiThreading.dir/async/test_async.cpp.s"
+	"C:\Program Files (x86)\mingw-w64\i686-6.3.0-posix-dwarf-rt_v5-rev1\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ITMO\C++\MultiThreading\async\test_async.cpp -o CMakeFiles\MultiThreading.dir\async\test_async.cpp.s
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.requires:
+
+.PHONY : CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.requires
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.provides: CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.provides.build
+.PHONY : CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.provides
+
+CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.provides.build: CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj
 
 
 # Object files for target MultiThreading
 MultiThreading_OBJECTS = \
-"CMakeFiles/MultiThreading.dir/test.cpp.obj" \
-"CMakeFiles/MultiThreading.dir/threadpool.cpp.obj"
+"CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj" \
+"CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj" \
+"CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj"
 
 # External object files for target MultiThreading
 MultiThreading_EXTERNAL_OBJECTS =
 
-MultiThreading.exe: CMakeFiles/MultiThreading.dir/test.cpp.obj
-MultiThreading.exe: CMakeFiles/MultiThreading.dir/threadpool.cpp.obj
+MultiThreading.exe: CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj
+MultiThreading.exe: CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj
+MultiThreading.exe: CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj
 MultiThreading.exe: CMakeFiles/MultiThreading.dir/build.make
 MultiThreading.exe: CMakeFiles/MultiThreading.dir/linklibs.rsp
 MultiThreading.exe: CMakeFiles/MultiThreading.dir/objects1.rsp
 MultiThreading.exe: CMakeFiles/MultiThreading.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MultiThreading.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MultiThreading.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MultiThreading.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,8 +152,9 @@ CMakeFiles/MultiThreading.dir/build: MultiThreading.exe
 
 .PHONY : CMakeFiles/MultiThreading.dir/build
 
-CMakeFiles/MultiThreading.dir/requires: CMakeFiles/MultiThreading.dir/test.cpp.obj.requires
-CMakeFiles/MultiThreading.dir/requires: CMakeFiles/MultiThreading.dir/threadpool.cpp.obj.requires
+CMakeFiles/MultiThreading.dir/requires: CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj.requires
+CMakeFiles/MultiThreading.dir/requires: CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj.requires
+CMakeFiles/MultiThreading.dir/requires: CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj.requires
 
 .PHONY : CMakeFiles/MultiThreading.dir/requires
 
