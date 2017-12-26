@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="promise_future"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_tests">
+				<Option output="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/promise_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GTEST"/>
+					<Add directory="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_tests/fast">
+				<Option output="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/promise_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GTEST"/>
+					<Add directory="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_future">
+				<Option output="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/promise_future" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GTEST"/>
+					<Add directory="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_future"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="promise_future/fast">
+				<Option output="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/promise_future" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLIBCXX_DEBUG"/>
+					<Add option="-D_GTEST"/>
+					<Add directory="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 promise_future/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/gtest/gtest-all.cc">
+			<Option target="promise_tests"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/gtest/gtest.h">
+			<Option target="promise_tests"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/gtest/gtest_main.cc">
+			<Option target="promise_tests"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include/Async.h">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include/future.h">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include/promise.h">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include/shared_state.h">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/include/utils.h">
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/source/main.cpp">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/tests/promise_test.cpp">
+			<Option target="promise_tests"/>
+			<Option target="promise_future"/>
+		</Unit>
+		<Unit filename="/media/disqustingman/F450A2D650A29EBC/ITMO/C++/MultiThreading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

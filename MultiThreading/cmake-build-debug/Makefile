@@ -66,6 +66,29 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +99,27 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,98 +154,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MultiThreading
+# Target rules for targets named googletest
 
 # Build rule for target.
-MultiThreading: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 MultiThreading
-.PHONY : MultiThreading
+googletest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 googletest
+.PHONY : googletest
 
 # fast build rule for target.
-MultiThreading/fast:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/build
-.PHONY : MultiThreading/fast
+googletest/fast:
+	$(MAKE) -f 3dparty\googletest-1.8.0\CMakeFiles\googletest.dir\build.make 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/build
+.PHONY : googletest/fast
 
-async/test_async.obj: async/test_async.cpp.obj
+#=============================================================================
+# Target rules for targets named thread_pool
 
-.PHONY : async/test_async.obj
+# Build rule for target.
+thread_pool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 thread_pool
+.PHONY : thread_pool
 
-# target to build an object file
-async/test_async.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.obj
-.PHONY : async/test_async.cpp.obj
+# fast build rule for target.
+thread_pool/fast:
+	$(MAKE) -f 1_thread_pool_task\CMakeFiles\thread_pool.dir\build.make 1_thread_pool_task/CMakeFiles/thread_pool.dir/build
+.PHONY : thread_pool/fast
 
-async/test_async.i: async/test_async.cpp.i
+#=============================================================================
+# Target rules for targets named future_promise
 
-.PHONY : async/test_async.i
+# Build rule for target.
+future_promise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 future_promise
+.PHONY : future_promise
 
-# target to preprocess a source file
-async/test_async.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.i
-.PHONY : async/test_async.cpp.i
+# fast build rule for target.
+future_promise/fast:
+	$(MAKE) -f 2_promise_future\CMakeFiles\future_promise.dir\build.make 2_promise_future/CMakeFiles/future_promise.dir/build
+.PHONY : future_promise/fast
 
-async/test_async.s: async/test_async.cpp.s
+#=============================================================================
+# Target rules for targets named flatten
 
-.PHONY : async/test_async.s
+# Build rule for target.
+flatten: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 flatten
+.PHONY : flatten
 
-# target to generate assembly for a file
-async/test_async.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/async/test_async.cpp.s
-.PHONY : async/test_async.cpp.s
+# fast build rule for target.
+flatten/fast:
+	$(MAKE) -f 3_flatten\CMakeFiles\flatten.dir\build.make 3_flatten/CMakeFiles/flatten.dir/build
+.PHONY : flatten/fast
 
-threadpool/test_threads.obj: threadpool/test_threads.cpp.obj
+#=============================================================================
+# Target rules for targets named map
 
-.PHONY : threadpool/test_threads.obj
+# Build rule for target.
+map: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 map
+.PHONY : map
 
-# target to build an object file
-threadpool/test_threads.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.obj
-.PHONY : threadpool/test_threads.cpp.obj
+# fast build rule for target.
+map/fast:
+	$(MAKE) -f 4_map\CMakeFiles\map.dir\build.make 4_map/CMakeFiles/map.dir/build
+.PHONY : map/fast
 
-threadpool/test_threads.i: threadpool/test_threads.cpp.i
+#=============================================================================
+# Target rules for targets named parallel
 
-.PHONY : threadpool/test_threads.i
+# Build rule for target.
+parallel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 parallel
+.PHONY : parallel
 
-# target to preprocess a source file
-threadpool/test_threads.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.i
-.PHONY : threadpool/test_threads.cpp.i
-
-threadpool/test_threads.s: threadpool/test_threads.cpp.s
-
-.PHONY : threadpool/test_threads.s
-
-# target to generate assembly for a file
-threadpool/test_threads.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/test_threads.cpp.s
-.PHONY : threadpool/test_threads.cpp.s
-
-threadpool/threadpool.obj: threadpool/threadpool.cpp.obj
-
-.PHONY : threadpool/threadpool.obj
-
-# target to build an object file
-threadpool/threadpool.cpp.obj:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.obj
-.PHONY : threadpool/threadpool.cpp.obj
-
-threadpool/threadpool.i: threadpool/threadpool.cpp.i
-
-.PHONY : threadpool/threadpool.i
-
-# target to preprocess a source file
-threadpool/threadpool.cpp.i:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.i
-.PHONY : threadpool/threadpool.cpp.i
-
-threadpool/threadpool.s: threadpool/threadpool.cpp.s
-
-.PHONY : threadpool/threadpool.s
-
-# target to generate assembly for a file
-threadpool/threadpool.cpp.s:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/threadpool/threadpool.cpp.s
-.PHONY : threadpool/threadpool.cpp.s
+# fast build rule for target.
+parallel/fast:
+	$(MAKE) -f 5_parallel\CMakeFiles\parallel.dir\build.make 5_parallel/CMakeFiles/parallel.dir/build
+.PHONY : parallel/fast
 
 # Help Target
 help:
@@ -209,18 +237,18 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... MultiThreading
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
 	@echo ... rebuild_cache
-	@echo ... async/test_async.obj
-	@echo ... async/test_async.i
-	@echo ... async/test_async.s
-	@echo ... threadpool/test_threads.obj
-	@echo ... threadpool/test_threads.i
-	@echo ... threadpool/test_threads.s
-	@echo ... threadpool/threadpool.obj
-	@echo ... threadpool/threadpool.i
-	@echo ... threadpool/threadpool.s
+	@echo ... list_install_components
+	@echo ... install/strip
+	@echo ... googletest
+	@echo ... thread_pool
+	@echo ... future_promise
+	@echo ... flatten
+	@echo ... map
+	@echo ... parallel
 .PHONY : help
 
 

@@ -94,7 +94,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/MultiThreading
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Project
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/ld.exe
@@ -127,7 +127,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-r
 CMAKE_OBJDUMP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=MultiThreading
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/ranlib.exe
@@ -188,10 +188,49 @@ CMAKE_STRIP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-MultiThreading_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug
+Project_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug
 
 //Value Computed by CMake
-MultiThreading_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading
+Project_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading
+
+//Value Computed by CMake
+flatten_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/3_flatten
+
+//Value Computed by CMake
+flatten_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/3_flatten
+
+//Value Computed by CMake
+future_promise_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/2_promise_future
+
+//Value Computed by CMake
+future_promise_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/2_promise_future
+
+//Value Computed by CMake
+googletest_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0
+
+//Dependencies for the target
+googletest_LIB_DEPENDS:STATIC=general;pthread;
+
+//Value Computed by CMake
+googletest_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0
+
+//Value Computed by CMake
+map_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/4_map
+
+//Value Computed by CMake
+map_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/4_map
+
+//Value Computed by CMake
+parallel_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/5_parallel
+
+//Value Computed by CMake
+parallel_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/5_parallel
+
+//Value Computed by CMake
+thread_pool_BINARY_DIR:STATIC=D:/ITMO/C++/MultiThreading/cmake-build-debug/1_thread_pool_task
+
+//Value Computed by CMake
+thread_pool_SOURCE_DIR:STATIC=D:/ITMO/C++/MultiThreading/1_thread_pool_task
 
 
 ########################
@@ -292,7 +331,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

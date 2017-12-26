@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MultiThreading")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -25,6 +25,17 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   else()
     set(CMAKE_INSTALL_COMPONENT)
   endif()
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/cmake_install.cmake")
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/1_thread_pool_task/cmake_install.cmake")
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/2_promise_future/cmake_install.cmake")
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/3_flatten/cmake_install.cmake")
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/4_map/cmake_install.cmake")
+  include("D:/ITMO/C++/MultiThreading/cmake-build-debug/5_parallel/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

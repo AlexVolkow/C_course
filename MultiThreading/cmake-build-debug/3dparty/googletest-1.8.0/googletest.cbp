@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="googletest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3dparty\;CMake Files\3dparty\googletest-1.8.0\;CMake Files\1_thread_pool_task\;CMake Files\2_promise_future\;CMake Files\3_flatten\;CMake Files\4_map\;CMake Files\5_parallel\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="googletest">
+				<Option output="D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/libgoogletest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 googletest"/>
+					<CompileFile command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="googletest/fast">
+				<Option output="D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/libgoogletest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 googletest/fast"/>
+					<CompileFile command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/mingw32-make.exe -f &quot;D:/ITMO/C++/MultiThreading/cmake-build-debug/3dparty/googletest-1.8.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0/gmock-gtest-all.cc">
+			<Option target="googletest"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3dparty\googletest-1.8.0\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/3dparty/googletest-1.8.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3dparty\googletest-1.8.0\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/1_thread_pool_task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_thread_pool_task\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/1_thread_pool_task/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1_thread_pool_task\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/2_promise_future/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_promise_future\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/2_promise_future/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\2_promise_future\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/3_flatten/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3_flatten\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/3_flatten/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3_flatten\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/4_map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\4_map\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/4_map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\4_map\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/5_parallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\5_parallel\"/>
+		</Unit>
+		<Unit filename="D:/ITMO/C++/MultiThreading/5_parallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\5_parallel\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

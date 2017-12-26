@@ -1,0 +1,1 @@
+ -LD:/ITMO/C++/MultiThreading/2_promise_future/../3dparty/googletest-1.8.0  ../3dparty/googletest-1.8.0/libgoogletest.a -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

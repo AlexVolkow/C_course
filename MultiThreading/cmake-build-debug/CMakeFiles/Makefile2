@@ -59,39 +59,332 @@ CMAKE_SOURCE_DIR = D:\ITMO\C++\MultiThreading
 CMAKE_BINARY_DIR = D:\ITMO\C++\MultiThreading\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/MultiThreading.dir
+# Directory level rules for directory 3dparty/googletest-1.8.0
+
+# Convenience name for "all" pass in the directory.
+3dparty/googletest-1.8.0/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+
+.PHONY : 3dparty/googletest-1.8.0/all
+
+# Convenience name for "clean" pass in the directory.
+3dparty/googletest-1.8.0/clean: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/clean
+
+.PHONY : 3dparty/googletest-1.8.0/clean
+
+# Convenience name for "preinstall" pass in the directory.
+3dparty/googletest-1.8.0/preinstall:
+
+.PHONY : 3dparty/googletest-1.8.0/preinstall
+
+#=============================================================================
+# Target rules for target 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir
 
 # All Build rule for target.
-CMakeFiles/MultiThreading.dir/all:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/depend
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target MultiThreading"
-.PHONY : CMakeFiles/MultiThreading.dir/all
+3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all:
+	$(MAKE) -f 3dparty\googletest-1.8.0\CMakeFiles\googletest.dir\build.make 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/depend
+	$(MAKE) -f 3dparty\googletest-1.8.0\CMakeFiles\googletest.dir\build.make 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target googletest"
+.PHONY : 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
 
 # Include target in all.
-all: CMakeFiles/MultiThreading.dir/all
+all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MultiThreading.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/MultiThreading.dir/all
+3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/MultiThreading.dir/rule
+.PHONY : 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/rule
 
 # Convenience name for target.
-MultiThreading: CMakeFiles/MultiThreading.dir/rule
+googletest: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/rule
 
-.PHONY : MultiThreading
-
-# clean rule for target.
-CMakeFiles/MultiThreading.dir/clean:
-	$(MAKE) -f CMakeFiles\MultiThreading.dir\build.make CMakeFiles/MultiThreading.dir/clean
-.PHONY : CMakeFiles/MultiThreading.dir/clean
+.PHONY : googletest
 
 # clean rule for target.
-clean: CMakeFiles/MultiThreading.dir/clean
+3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/clean:
+	$(MAKE) -f 3dparty\googletest-1.8.0\CMakeFiles\googletest.dir\build.make 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/clean
+.PHONY : 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/clean
+
+# clean rule for target.
+clean: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 1_thread_pool_task
+
+# Convenience name for "all" pass in the directory.
+1_thread_pool_task/all: 1_thread_pool_task/CMakeFiles/thread_pool.dir/all
+
+.PHONY : 1_thread_pool_task/all
+
+# Convenience name for "clean" pass in the directory.
+1_thread_pool_task/clean: 1_thread_pool_task/CMakeFiles/thread_pool.dir/clean
+
+.PHONY : 1_thread_pool_task/clean
+
+# Convenience name for "preinstall" pass in the directory.
+1_thread_pool_task/preinstall:
+
+.PHONY : 1_thread_pool_task/preinstall
+
+#=============================================================================
+# Target rules for target 1_thread_pool_task/CMakeFiles/thread_pool.dir
+
+# All Build rule for target.
+1_thread_pool_task/CMakeFiles/thread_pool.dir/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+	$(MAKE) -f 1_thread_pool_task\CMakeFiles\thread_pool.dir\build.make 1_thread_pool_task/CMakeFiles/thread_pool.dir/depend
+	$(MAKE) -f 1_thread_pool_task\CMakeFiles\thread_pool.dir\build.make 1_thread_pool_task/CMakeFiles/thread_pool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=15,16,17,18 "Built target thread_pool"
+.PHONY : 1_thread_pool_task/CMakeFiles/thread_pool.dir/all
+
+# Include target in all.
+all: 1_thread_pool_task/CMakeFiles/thread_pool.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+1_thread_pool_task/CMakeFiles/thread_pool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 1_thread_pool_task/CMakeFiles/thread_pool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
+.PHONY : 1_thread_pool_task/CMakeFiles/thread_pool.dir/rule
+
+# Convenience name for target.
+thread_pool: 1_thread_pool_task/CMakeFiles/thread_pool.dir/rule
+
+.PHONY : thread_pool
+
+# clean rule for target.
+1_thread_pool_task/CMakeFiles/thread_pool.dir/clean:
+	$(MAKE) -f 1_thread_pool_task\CMakeFiles\thread_pool.dir\build.make 1_thread_pool_task/CMakeFiles/thread_pool.dir/clean
+.PHONY : 1_thread_pool_task/CMakeFiles/thread_pool.dir/clean
+
+# clean rule for target.
+clean: 1_thread_pool_task/CMakeFiles/thread_pool.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 2_promise_future
+
+# Convenience name for "all" pass in the directory.
+2_promise_future/all: 2_promise_future/CMakeFiles/future_promise.dir/all
+
+.PHONY : 2_promise_future/all
+
+# Convenience name for "clean" pass in the directory.
+2_promise_future/clean: 2_promise_future/CMakeFiles/future_promise.dir/clean
+
+.PHONY : 2_promise_future/clean
+
+# Convenience name for "preinstall" pass in the directory.
+2_promise_future/preinstall:
+
+.PHONY : 2_promise_future/preinstall
+
+#=============================================================================
+# Target rules for target 2_promise_future/CMakeFiles/future_promise.dir
+
+# All Build rule for target.
+2_promise_future/CMakeFiles/future_promise.dir/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+	$(MAKE) -f 2_promise_future\CMakeFiles\future_promise.dir\build.make 2_promise_future/CMakeFiles/future_promise.dir/depend
+	$(MAKE) -f 2_promise_future\CMakeFiles\future_promise.dir\build.make 2_promise_future/CMakeFiles/future_promise.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=4,5,6 "Built target future_promise"
+.PHONY : 2_promise_future/CMakeFiles/future_promise.dir/all
+
+# Include target in all.
+all: 2_promise_future/CMakeFiles/future_promise.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+2_promise_future/CMakeFiles/future_promise.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 2_promise_future/CMakeFiles/future_promise.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
+.PHONY : 2_promise_future/CMakeFiles/future_promise.dir/rule
+
+# Convenience name for target.
+future_promise: 2_promise_future/CMakeFiles/future_promise.dir/rule
+
+.PHONY : future_promise
+
+# clean rule for target.
+2_promise_future/CMakeFiles/future_promise.dir/clean:
+	$(MAKE) -f 2_promise_future\CMakeFiles\future_promise.dir\build.make 2_promise_future/CMakeFiles/future_promise.dir/clean
+.PHONY : 2_promise_future/CMakeFiles/future_promise.dir/clean
+
+# clean rule for target.
+clean: 2_promise_future/CMakeFiles/future_promise.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 3_flatten
+
+# Convenience name for "all" pass in the directory.
+3_flatten/all: 3_flatten/CMakeFiles/flatten.dir/all
+
+.PHONY : 3_flatten/all
+
+# Convenience name for "clean" pass in the directory.
+3_flatten/clean: 3_flatten/CMakeFiles/flatten.dir/clean
+
+.PHONY : 3_flatten/clean
+
+# Convenience name for "preinstall" pass in the directory.
+3_flatten/preinstall:
+
+.PHONY : 3_flatten/preinstall
+
+#=============================================================================
+# Target rules for target 3_flatten/CMakeFiles/flatten.dir
+
+# All Build rule for target.
+3_flatten/CMakeFiles/flatten.dir/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+	$(MAKE) -f 3_flatten\CMakeFiles\flatten.dir\build.make 3_flatten/CMakeFiles/flatten.dir/depend
+	$(MAKE) -f 3_flatten\CMakeFiles\flatten.dir\build.make 3_flatten/CMakeFiles/flatten.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target flatten"
+.PHONY : 3_flatten/CMakeFiles/flatten.dir/all
+
+# Include target in all.
+all: 3_flatten/CMakeFiles/flatten.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+3_flatten/CMakeFiles/flatten.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 3_flatten/CMakeFiles/flatten.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
+.PHONY : 3_flatten/CMakeFiles/flatten.dir/rule
+
+# Convenience name for target.
+flatten: 3_flatten/CMakeFiles/flatten.dir/rule
+
+.PHONY : flatten
+
+# clean rule for target.
+3_flatten/CMakeFiles/flatten.dir/clean:
+	$(MAKE) -f 3_flatten\CMakeFiles\flatten.dir\build.make 3_flatten/CMakeFiles/flatten.dir/clean
+.PHONY : 3_flatten/CMakeFiles/flatten.dir/clean
+
+# clean rule for target.
+clean: 3_flatten/CMakeFiles/flatten.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 4_map
+
+# Convenience name for "all" pass in the directory.
+4_map/all: 4_map/CMakeFiles/map.dir/all
+
+.PHONY : 4_map/all
+
+# Convenience name for "clean" pass in the directory.
+4_map/clean: 4_map/CMakeFiles/map.dir/clean
+
+.PHONY : 4_map/clean
+
+# Convenience name for "preinstall" pass in the directory.
+4_map/preinstall:
+
+.PHONY : 4_map/preinstall
+
+#=============================================================================
+# Target rules for target 4_map/CMakeFiles/map.dir
+
+# All Build rule for target.
+4_map/CMakeFiles/map.dir/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+	$(MAKE) -f 4_map\CMakeFiles\map.dir\build.make 4_map/CMakeFiles/map.dir/depend
+	$(MAKE) -f 4_map\CMakeFiles\map.dir\build.make 4_map/CMakeFiles/map.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=9,10,11 "Built target map"
+.PHONY : 4_map/CMakeFiles/map.dir/all
+
+# Include target in all.
+all: 4_map/CMakeFiles/map.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+4_map/CMakeFiles/map.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 4_map/CMakeFiles/map.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
+.PHONY : 4_map/CMakeFiles/map.dir/rule
+
+# Convenience name for target.
+map: 4_map/CMakeFiles/map.dir/rule
+
+.PHONY : map
+
+# clean rule for target.
+4_map/CMakeFiles/map.dir/clean:
+	$(MAKE) -f 4_map\CMakeFiles\map.dir\build.make 4_map/CMakeFiles/map.dir/clean
+.PHONY : 4_map/CMakeFiles/map.dir/clean
+
+# clean rule for target.
+clean: 4_map/CMakeFiles/map.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 5_parallel
+
+# Convenience name for "all" pass in the directory.
+5_parallel/all: 5_parallel/CMakeFiles/parallel.dir/all
+
+.PHONY : 5_parallel/all
+
+# Convenience name for "clean" pass in the directory.
+5_parallel/clean: 5_parallel/CMakeFiles/parallel.dir/clean
+
+.PHONY : 5_parallel/clean
+
+# Convenience name for "preinstall" pass in the directory.
+5_parallel/preinstall:
+
+.PHONY : 5_parallel/preinstall
+
+#=============================================================================
+# Target rules for target 5_parallel/CMakeFiles/parallel.dir
+
+# All Build rule for target.
+5_parallel/CMakeFiles/parallel.dir/all: 3dparty/googletest-1.8.0/CMakeFiles/googletest.dir/all
+	$(MAKE) -f 5_parallel\CMakeFiles\parallel.dir\build.make 5_parallel/CMakeFiles/parallel.dir/depend
+	$(MAKE) -f 5_parallel\CMakeFiles\parallel.dir\build.make 5_parallel/CMakeFiles/parallel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles --progress-num=12,13,14 "Built target parallel"
+.PHONY : 5_parallel/CMakeFiles/parallel.dir/all
+
+# Include target in all.
+all: 5_parallel/CMakeFiles/parallel.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+5_parallel/CMakeFiles/parallel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 5_parallel/CMakeFiles/parallel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ITMO\C++\MultiThreading\cmake-build-debug\CMakeFiles 0
+.PHONY : 5_parallel/CMakeFiles/parallel.dir/rule
+
+# Convenience name for target.
+parallel: 5_parallel/CMakeFiles/parallel.dir/rule
+
+.PHONY : parallel
+
+# clean rule for target.
+5_parallel/CMakeFiles/parallel.dir/clean:
+	$(MAKE) -f 5_parallel\CMakeFiles\parallel.dir\build.make 5_parallel/CMakeFiles/parallel.dir/clean
+.PHONY : 5_parallel/CMakeFiles/parallel.dir/clean
+
+# clean rule for target.
+clean: 5_parallel/CMakeFiles/parallel.dir/clean
 
 .PHONY : clean
 
